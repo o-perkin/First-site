@@ -1,0 +1,335 @@
+body, html{
+    padding:0;
+    margin:0;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper{
+    height:100%;
+    display: grid;
+    grid-template-columns: 250px auto;
+   
+
+}
+.sidebar{
+    background-color: rgb(226, 114, 114);
+    
+    
+}
+
+.second_sidebar{
+    width: 250px;
+    height:100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left:0;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    padding: 42px 0 0 40px;
+   
+}
+
+.main_content{
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 30px 0px 50px -50px #041a1b inset;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    background-color: transparent;
+    background-image: linear-gradient(140deg, #0887aa 45%, #33b1a0 100%);
+    height: 400px;
+    width: auto;
+    padding: 0 60px 0 60px;
+    box-shadow: 30px 0px 50px -50px #041a1b inset;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: auto;
+    padding: 30px 60px 30px 60px;
+    box-shadow: 30px 0px 50px -50px #041a1b inset;
+}
+
+.footer{
+    
+    position: sticky;
+    margin-top: auto;    
+    width: auto;
+    height: 315px;
+    background-color: white;
+    padding: 0 60px 30px 60px;
+    box-shadow: 30px 0px 50px -50px #041a1b inset;
+    /* border: solid 1px red; */
+}
+
+
+.header_center{
+/* border: 1px solid red; */
+width: auto;
+max-width: 1140px;
+height: auto;
+}
+
+.header_center h1{
+    font-family: "PT Sans", Sans-serif 16;
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+}
+
+.header_center h2{
+    font-family: "PT Sans", Sans-serif 16;
+    font-weight: 400;
+    font-size: 18pt;
+    color: white;
+}
+
+.header_center button{
+    width:170px;
+    height: 44px;
+    margin-top: 20px;
+    border: solid 2px #c5fdf8;
+    background-color: transparent;
+    background-image: linear-gradient(140deg, #0887aa 45%, #33b1a0 100%);
+    border-radius: 5px;
+    font-family: "PT Sans", Sans-serif bold 16;
+    font-size: 9pt;
+    font-weight: 400;
+    color: #99ffe0;
+}
+
+.content_center{
+    width: auto;
+    max-width: 1140px;
+    height: auto;
+}
+
+.logo_div{
+    /* border: solid 1px red; */
+    width: auto;
+}
+
+.main_btn_sidebar{
+    /* border: solid 1px red; */
+    width: auto;
+    margin-top: 55px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.line_sidebar{
+ height: auto;
+ margin: 0 -42px 0 -40px;
+ /* border: solid 1px red; */
+ width: 250px;
+}
+
+.low_sidebar{
+    /* border: solid 1px red; */
+    width: auto;
+    margin-top: 20px;
+}
+
+.footer_sidebar{
+    /* border: solid 1px red; */
+    height: 100%;
+    width: auto;
+}
+
+.sidebar_button{
+    /* border: solid 1px red; */
+    width: auto;
+    height: 45px;
+    font-family: "PT Sans", Sans-serif 16;
+    font-weight: 400;
+    color: #3d9fba;
+    font-size: 13pt;
+}
+
+.phone_number_sidebar{
+    height: 30px;
+    font-family: "PT Sans", Sans-serif 16;
+    font-weight: bolder;
+    color: #3d9fba;
+    font-size: 18pt;
+}
+
+.email_sidebar{
+    height: 30px;
+    font-family: "PT Sans", Sans-serif 16;
+    color: #3d9fba;
+    font-size: 14pt;
+    margin-top: 10px;
+}
+
+.line_sidebar hr{
+    width: 250px;
+    border: none; /* Убираем границу */
+    background-color: #3d9fba; /* Цвет линии */
+    color: #3d9fba; /* Цвет линии для IE6-7 */
+    height: 1px;
+    opacity: 20%;
+}
+
+.footer_main{
+    display: flex;
+    flex-direction: row;
+    height: 180px;
+    padding: 50px 50px 0 0;
+    
+}
+
+.footer_low{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0 30px 0;
+    justify-content: space-between;
+}
+
+.footer_line{
+    /* border: solid 1px red; */
+    margin: 0 -60px 0 -60px;
+}
+
+.footer_main_logo{
+    width: 150px;
+    
+    /* border: solid 1px red; */
+}
+
+.footer_main_firsrblock{
+    /* border: solid 1px red; */
+    flex: 1;
+}
+
+.footer_secondblock{
+    /* border: solid 1px red; */
+    flex: 1;
+}
+
+.footer_thirdblock{
+    /* border: solid 1px red; */
+    width: 150px;
+}
+
+.footer_button{
+    height: 35px;
+    width: auto;
+    font-family: "PT Sans", Sans-serif 16;
+    font-weight: 400;
+    font-size: 12pt;
+    color: #0887aa;
+}
+
+.footer_thirdblock p{
+    margin: 0 0 10px 0;
+    width: auto;
+    font-family: "PT Sans", Sans-serif 16;
+    font-weight: 400;
+    color: #0887aa;
+}
+
+.footer_line hr{    
+    border: none; /* Убираем границу */
+    background-color: #3d9fba; /* Цвет линии */
+    color: #3d9fba; /* Цвет линии для IE6-7 */
+    height: 1px;
+    opacity: 20%;
+}
+
+.footer_main_logo p{
+    margin: 0 20px 0 0;
+    text-align: center;
+}
+
+.footer_center{
+    max-width: 1140px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+}
+
+.footer_low div{
+    width: auto;
+    font-family: "PT Sans", Sans-serif 14;
+    font-weight: 400;
+    color: #0887aa;
+}
+
+.low_sidebar_button button{
+    width:170px;
+    height: 44px;
+    margin-top: 30px;
+    border: solid 2px #0c756d;
+    background-color: transparent;
+    background-image: linear-gradient(140deg, #0887aa 45%, #33b1a0 100%);
+    border-radius: 5px;
+    font-family: "PT Sans", Sans-serif bold 16;
+    font-size: 9pt;
+    font-weight: 400;
+    color: #99ffe0;
+    
+}
+
+.sidebar_button a{
+    text-decoration: none;
+    color: #3d9fba;
+}
+
+button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer_button a{
+    text-decoration: none;
+    color: #0887aa;
+}
+
+.confidential a{
+    text-decoration: none;
+    color: #0887aa;
+   }
+
+a:hover { 
+    color: #2fc9b9;
+   } 
+
+.main_section h2{
+    font-family: "PT Sans", Sans-serif 16;
+    font-weight: 400;
+    color: #3d9fba;
+}
+
+.step{
+    color: #00b3a1;
+}
+
+.main_section p{
+    font-family: "PT Sans", Sans-serif 16;
+    font-weight: 400;
+    color: #3d9fba;
+    font-size: 12pt;
+    line-height: 1.5;
+}
+.garbage{
+    float: right;
+    margin: 7px 7px 7px 20px;
+}
+
